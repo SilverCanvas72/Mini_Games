@@ -10,13 +10,17 @@ function App() {
       <Header/>
 
       <Homepage_title/>
-      
 
-      <img id='bored-dog' src= "src/assets/Bored-dog.jpg" alt="An image with text saying NORMAL IS BORING"/>  
+      <div className="home_container">
+        <img id='bored-dog' src= "src/assets/Bored-dog.jpg" alt="Man facing away from the camera with open arms showing "/> 
 
-      <img id='freedom' src= "src/assets/Freedom.jpg" alt="Man standning on "/>
-      <br/>
-      <Buttons/>
+        <div className="right">
+          <img id='freedom' src= "src/assets/Freedom.jpg" alt="Man standning on "/>
+          <Buttons/>
+        </div>
+      </div>
+
+      <button id='quiz_button'>Take Quiz</button>
 
 
     </>

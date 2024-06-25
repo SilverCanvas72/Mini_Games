@@ -11,11 +11,15 @@
 }
 
 #bored-dog{
-  width: 500px;
+  width: 315px;
+  padding: 20px;
+
 }
 
 #freedom{
-  width: 1000px;
+  width: 700px;
+  padding: 20px;
+
 }
 
 #header{
@@ -25,7 +29,7 @@
   margin: 0px;
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 30px;
 }
 
 button{
@@ -33,9 +37,9 @@ button{
   font-weight: 400;
   font-style: normal;
   cursor: pointer;
-  font-size: 50px;
-  width: 300px;
-  height: 300px;
+  font-size: 20px;
+  width: 120px;
+  height: 120px;
 }
 
 .title{
@@ -43,7 +47,7 @@ button{
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  font-size: 100px;
+  font-size: 75px;
   padding: 15px;
   color: rgb(179, 135, 229);
 
@@ -53,7 +57,80 @@ button{
   font-family: "Gamja Flower", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
-  color: rgb(179, 135, 229);
+  font-size: 45px;
+  color: rgb(126, 170, 223);
   text-align: center;
 }
+
+.home_container{
+  display: flex;
+  justify-content: center;
+}
+
+.game-button{
+  margin-left: 24px;
+  border-radius: 20px;
+
+
+}
+
+
+
+img{
+  border-radius: 30px;
+}
+
+#game-button1{
+  background-color: rgb(255, 86, 111);
+}
+
+#game-button2{
+  background-color: rgb(179, 135, 229);
+}
+
+#game-button3{
+  background-color: rgb(172, 232, 140);
+}
+
+#game-button4{
+  background-color: rgb(248, 200, 106);
+}
+
+#game-button5{
+  background-color: rgb(126, 170, 223);
+}
+
+#game-button5:hover{
+  background-color: rgb(99, 134, 176);
+}
+#game-button5:active{
+  background-color: rgb(76, 103, 136);
+}
+#game-button4:hover{
+  background-color: rgb(204, 166, 89);
+}
+#game-button4:active{
+  background-color: rgb(170, 138, 74);
+}
+#game-button3:hover{
+  background-color: rgb(148, 200, 120);
+}
+#game-button3:active{
+  background-color: rgb(126, 171, 101);
+}
+#game-button2:hover{
+  background-color: rgb(157, 119, 200);
+}
+#game-button2:active{
+  background-color: rgb(138, 104, 178);
+}
+#game-button1:hover {
+  background-color: rgb(220, 79, 100);
+}
+#game-button1:active {
+  background-color: rgb(196, 69, 88);
+}
+
+
+
+
