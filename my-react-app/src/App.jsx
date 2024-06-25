@@ -7,6 +7,13 @@ import FindThree from './pages/findDifference3.jsx'
 import FindFour from './pages/findDifference4.jsx'
 import FindComplete from './pages/findComplete.jsx'
 import ChooseStart from './pages/choseStart.jsx'
+import Paths from './pages/paths.jsx'
+import Cliff from './pages/cliff.jsx'
+import Trees from './pages/trees.jsx'
+import Fox from './pages/fox.jsx'
+import FoxTwo from './pages/foxTwo.jsx'
+
+
 
 function App() {
 
@@ -23,6 +30,11 @@ function App() {
           <Route path="/findthedifference4" element={<FindFour/>}/>
           <Route path="/youdidit" element={<FindComplete/>}/>
           <Route path="/chooseStart" element={<ChooseStart/>}/>
+          <Route path="/paths" element={<Paths/>}/>
+          <Route path="/cliff" element={<Cliff/>}/>
+          <Route path="/trees" element={<Trees/>}/>
+          <Route path="/fox" element={<Fox/>}/>
+          <Route path="/foxTwo" element={<FoxTwo/>}/>
 
         </Routes>
       </BrowserRouter>
