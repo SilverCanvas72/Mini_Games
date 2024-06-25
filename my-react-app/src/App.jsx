@@ -1,28 +1,18 @@
-import { useState } from 'react'
-import Header from './Header.jsx'
-import Homepage_title from './Homepage-title.jsx'
-import Buttons from './Buttons.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/home.jsx'
+import Rock from './pages/rockPaperScissors.jsx'
 
 function App() {
 
   return (
     <>
-      <Header/>
-
-      <Homepage_title/>
-
-      <div className="home_container">
-        <img id='bored-dog' src= "src/assets/Bored-dog.jpg" alt="Man facing away from the camera with open arms showing "/> 
-
-        <div className="right">
-          <img id='freedom' src= "src/assets/Freedom.jpg" alt="Man standning on "/>
-          <Buttons/>
-        </div>
-      </div>
-
-      <button id='quiz_button'>Take Quiz</button>
-
-
+      <BrowserRouter>
+        <Routes>
+        <Route index element={<Home/>}/>
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/rockpaperscissors" element={<Rock/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
