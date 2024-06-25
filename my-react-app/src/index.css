@@ -70,6 +70,24 @@ button{
   color: rgb(172, 232, 140);
   text-align: center;
 }
+.subtitle3{
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(255, 86, 111);
+  text-align: center;
+}
+
+#computer{
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(248, 200, 106);
+  text-align: center;
+}
+
 
 .home_container{
   display: flex;
