@@ -6,6 +6,7 @@ import FindTwo from './pages/findDifference2.jsx'
 import FindThree from './pages/findDifference3.jsx'
 import FindFour from './pages/findDifference4.jsx'
 import FindComplete from './pages/findComplete.jsx'
+import ChooseStart from './pages/choseStart.jsx'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/findthedifference3" element={<FindThree/>}/>
           <Route path="/findthedifference4" element={<FindFour/>}/>
           <Route path="/youdidit" element={<FindComplete/>}/>
+          <Route path="/chooseStart" element={<ChooseStart/>}/>
 
         </Routes>
       </BrowserRouter>

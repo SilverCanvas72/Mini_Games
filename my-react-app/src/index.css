@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-#bored-dog{
+.chooseImg{
   width: 315px;
   padding: 20px;
 
@@ -208,3 +208,93 @@ a:active {
   margin-right: auto;
 }
 
+p{
+ color: aliceblue ;
+ font-size: 30px;
+ text-align: center;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+
+.goodDescision{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(126, 170, 223);
+}
+
+.badDescision {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 86, 111);
+}
+
+
+.chooseButton1{
+  background-color: rgb(255, 86, 111);
+  height: auto;
+  width: auto;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.chooseButton2{
+  background-color: rgb(179, 135, 229);
+  height: auto;
+  width: auto;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.chooseButton3 {
+  background-color: rgb(172, 232, 140);
+  height: auto;
+  width: auto;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.chooseButton4 {
+  background-color: rgb(248, 200, 106);
+  height: auto;
+  width: auto;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.chooseButton5 {
+  background-color: rgb(126, 170, 223);
+  height: auto;
+  width: auto;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 20px;
+  
+}
+
+.buttonsContainer{
+  display:flex;
+  justify-content: space-between;
+
+
+
+}

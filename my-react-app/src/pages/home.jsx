@@ -12,7 +12,7 @@ function Home() {
       <Homepage_title/>
 
       <div className="home_container">
-        <img id='bored-dog' src= "src/assets/Bored-dog.jpg" alt="Man facing away from the camera with open arms showing "/> 
+        <img className='chooseImg' src= "src/assets/Bored-dog.jpg" alt="Man facing away from the camera with open arms showing "/> 
 
         <div className="right">
           <img id='freedom' src= "src/assets/Freedom.jpg" alt="Man standning on "/>
