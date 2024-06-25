@@ -25,11 +25,11 @@
 #header{
   color:rgb(255, 86, 111);
   background-color: rgb(33, 35, 46);
-  padding: 30px;
+  padding: 10px;
   margin: 0px;
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 button{
@@ -62,6 +62,15 @@ button{
   text-align: center;
 }
 
+.subtitle2{
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(172, 232, 140);
+  text-align: center;
+}
+
 .home_container{
   display: flex;
   justify-content: center;
@@ -74,6 +83,25 @@ button{
 
 }
 
+.rock-button{
+  font-size: 50px;
+  margin: 20px;
+  margin-top: 0px;
+  border-radius: 20px;
+
+}
+
+.rock-button:hover{
+  background-color: rgb(221, 221, 221);
+}
+
+.rock-button:active{
+  background-color: rgb(192, 192, 192);
+}
+
+.center-buttons{
+  text-align: center;
+}
 
 
 img{

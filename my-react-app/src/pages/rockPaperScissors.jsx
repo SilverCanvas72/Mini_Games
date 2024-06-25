@@ -1,11 +1,14 @@
 import Header from '../components/Header.jsx'
+import Rock_title from '../components/rockTitle.jsx'
+import Rock_buttons from '../components/rockButtons.jsx'
 
 function Rock() {
 
     return (
       <>
         <Header/>
-        <h1>Rock Paper Scissors Page</h1>
+        <Rock_title/>
+        <Rock_buttons/>
       </>
     )
   }

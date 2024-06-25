@@ -4,6 +4,18 @@ import Rock from './pages/rockPaperScissors.jsx'
 
 function App() {
 
+  const [userChoice, setUserChoice] = useState('');
+  const [computerChoice, setComputerChoice] = useState('');
+  const [result, setResult] = useState('');
+
+  const choices = ["rock", "paper", "scissors"];
+
+  const onButtonClick = (choice) => {
+    setUserChoice(choice);
+}
+
+
+
   return (
     <>
       <BrowserRouter>
