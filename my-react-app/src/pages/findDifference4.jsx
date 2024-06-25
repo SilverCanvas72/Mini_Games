@@ -1,19 +1,19 @@
 import Header from '../components/Header.jsx'
 import GoHome from '../components/GoHome.jsx'
-import Difference1 from '../components/difference1.jsx'
+import FourFind from '../components/difference4.jsx'
 import FindTitle from '../components/findTitle.jsx'
 
 
-function Difference() {
+function FindFour() {
 
   return (
     <>
         <Header/>
         <FindTitle/>
-        <Difference1/>
+        <FourFind/>
         <GoHome/>
     </>
   )
 }
 
-export default Difference
+export default FindFour
