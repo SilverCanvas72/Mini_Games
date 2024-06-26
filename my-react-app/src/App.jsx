@@ -12,6 +12,10 @@ import Cliff from './pages/cliff.jsx'
 import Trees from './pages/trees.jsx'
 import Fox from './pages/fox.jsx'
 import FoxTwo from './pages/foxTwo.jsx'
+import River from './pages/river.jsx'
+import Almost from './pages/almost.jsx'
+import ChooseDone from './pages/chooseDone.jsx'
+import Dead from './pages/dead.jsx'
 
 
 
@@ -35,7 +39,10 @@ function App() {
           <Route path="/trees" element={<Trees/>}/>
           <Route path="/fox" element={<Fox/>}/>
           <Route path="/foxTwo" element={<FoxTwo/>}/>
-
+          <Route path="/river" element={<River/>}/>
+          <Route path="/almost" element={<Almost/>}/>
+          <Route path="/choosedone" element={<ChooseDone/>}/>
+          <Route path="/dead" element={<Dead/>}/>
         </Routes>
       </BrowserRouter>
     </>

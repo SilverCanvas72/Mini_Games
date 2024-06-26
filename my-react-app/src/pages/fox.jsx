@@ -7,7 +7,7 @@ function Fox() {
       <Header/>
 
       <div className="home_container">
-        <img className='chooseImg' src= "src/assets/placeholder.webp" alt="Man facing away from the camera with open arms showing "/> 
+        <img className='chooseImg' src= "src/assets/fox.jpg" alt="Man facing away from the camera with open arms showing "/> 
 
         <div className="right">
 

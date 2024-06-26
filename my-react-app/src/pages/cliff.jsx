@@ -8,7 +8,7 @@ function Cliff() {
       <Header/>
 
       <div className="home_container">
-        <img className='chooseImg' src= "src/assets/placeholder.webp" alt="Man facing away from the camera with open arms showing "/> 
+        <img className='chooseImg' src= "src/assets/cliff.jpg" alt="Man facing away from the camera with open arms showing "/> 
 
         <div className="right">
 

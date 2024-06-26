@@ -7,7 +7,7 @@ function Paths() {
       <Header/>
 
       <div className="home_container">
-        <img className='chooseImg' src= "src/assets/placeholder.webp" alt="Man facing away from the camera with open arms showing "/> 
+        <img className='chooseImg' src= "src/assets/paths.jpg" alt="Man facing away from the camera with open arms showing "/> 
 
         <div className="right">
 
@@ -26,7 +26,9 @@ function Paths() {
                 <a href = '/cliff'>
                     <button className='chooseButton5'> Rocky Path</button>
                 </a>
-                <button className='chooseButton2'> Deep River</button>
+                <a href="/river">
+                    <button className='chooseButton2'> Deep River</button>
+                </a>
             </div>
 
         </div>
