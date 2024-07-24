@@ -11,7 +11,7 @@
 }
 
 .chooseImg{
-  width: 315px;
+  width: 700px;
   padding: 20px;
 
 }
@@ -196,7 +196,7 @@ a:hover {
   text-decoration: none; 
 } 
 a:active { 
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .difference{
@@ -294,4 +294,8 @@ p{
 .buttonsContainer{
   display:flex;
   justify-content: space-evenly;
+}
+
+.right {
+  margin: auto;
 }
