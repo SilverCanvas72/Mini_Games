@@ -1,4 +1,13 @@
-Track Progress Here
+# I'm Bored Website
+Fun little website. Rock paper scissors and spot the difference game are complete. The chose your own advernture section is playable some art isn't complete.
+## Attempted Vercel Deployment:
+mini-games-js8inra8y-silvercanvas72s-projects.vercel.app 
+### Watch Walkthrough Video Here:
+[![Video Title](https://img.youtube.com/viyi24o02EQUc/0.jpg)](https://www.youtube.com/watch?v=yi24o02EQUc)
+
+
+<details>
+<summary>View Art Progress Here</summary>
 
 ### Progress on Hour 2:
 
@@ -32,3 +41,5 @@ I finished the first piece and then styled it into the website. I then sketched 
 ![alt text](image-11.png)
 ![alt text](image-12.png)
 ![alt text](image-13.png)
+
+</details>
