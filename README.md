@@ -1,7 +1,6 @@
 # I'm Bored Website
 Fun little website. Rock paper scissors and spot the difference game are complete. The chose your own advernture section is playable some art isn't complete.
 ## Attempted Vercel Deployment:
-mini-games-7pfjsd8hy-silvercanvas72s-projects.vercel.app 
 https://vercel.com/silvercanvas72s-projects/mini-games/2yiUD1jsixRmBU5dDpDQ9xAjsVGa 
 ### Watch Walkthrough Video Here:
 [![Video Title](https://img.youtube.com/vi/yi24o02EQUc/0.jpg)](https://www.youtube.com/watch?v=yi24o02EQUc)
